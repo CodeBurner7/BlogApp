@@ -1,0 +1,80 @@
+
+.settings {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .settingsWrapper {
+    flex: 2; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .settingsTitle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .settingsTitle span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .settingsForm label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .settingsForm input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .settingsPP {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .settingsPP img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .settingsPPIcon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .settingsPPIcon:hover {
+    color: #0056b3;
+  }
+  
+  .settingsSubmitButton {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .settingsSubmitButton:hover {
+    background-color: #0056b3;
+  }
+  
